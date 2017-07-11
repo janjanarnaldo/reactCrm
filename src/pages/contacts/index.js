@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from 'gatsby-link'
+
 import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import getMuiTheme from 'material-ui/styles/getMuiTheme'
@@ -52,7 +54,7 @@ class ContactList extends React.Component {
 										<TableRowColumn>{o.FirstName}</TableRowColumn>
 										<TableRowColumn>{o.LastName}</TableRowColumn>
 										<TableRowColumn>{o.DOB}</TableRowColumn>
-										<TableRowColumn></TableRowColumn>
+										<TableRowColumn><Link to="./edit">{/*Should pass the obj using history sort of*/}edit</Link></TableRowColumn>
 									</TableRow>
 								)
 							})}
