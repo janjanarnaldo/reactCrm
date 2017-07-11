@@ -38,7 +38,7 @@ class ContactList extends React.Component {
 						<TableHeader
 							displaySelectAll={false}
 				            adjustForCheckbox={false}
-				            enableSelectAll={false}>
+				            enableSelectAll={false}> 
 							<TableRow>
 								<TableHeaderColumn>First Name</TableHeaderColumn>
 								<TableHeaderColumn>Last Name</TableHeaderColumn>
